@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Mina&family=Montserrat:wght@500&family=Outfit&family=Overpass&family=Red+Hat+Display:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Overpass', sans-serif;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+}
+
+.outer-container{
+    position: relative;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 30px;
+    width: 460px;;
+    height: 430px;
+}
+
+.rating-state{
+    margin: 40px;
+    height: 350px;
+}
+
+.rating-state.hidden{
+    display: none;
+}
+
+.star{
+    background-color:  hsl(213, 20%, 21%);
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.headingTextOne{
+    color: white;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+}
+
+.textOne{
+    color: hsl(217, 12%, 63%);
+    line-height: 1.6;
+    margin: 20px auto;
+}
+
+.buttonRatings{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px auto;
+}
+
+.btn{
+    background-color: hsl(213, 20%, 21%);
+    color: hsl(217, 12%, 63%);
+    width: 50px;
+    padding: 15px;
+    border: none;
+    border-radius: 50%;
+    
+}
+
+.btn:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn:focus{
+    background-color: hsl(216, 12%, 54%);
+    color: #fff;
+}
+
+.submit-container{
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+.submit{
+    width: 350px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    text-align: center;
+    background-color: hsl(25, 97%, 53%);
+    color: #fff;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+}
+
+.submit:hover{
+    background-color: #fff;
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+.submit-state{
+    display: none;
+    margin: 40px;
+    height: 350px;
+}
+
+.submit-state.show{
+    display: block;
+}
+
+.container-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container-img .book{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.feedback-Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(213, 20%, 21%);
+    margin-top: 30px;
+    padding: 5px;
+    border-radius: 20px;
+    width: 200px;
+    margin-left: 90px;
+}
+
+.feedback-Container p{
+    color: hsl(25, 97%, 53%);
+    text-align: center;
+}
+
+.headingTextTwo{
+    color: #fff;
+    margin-top: 30px;
+    text-align: center;
+    letter-spacing: 1.3px;
+}
+
+.textTwo{
+    text-align: center;
+    margin: 20px auto;
+    width: 360px;
+    color: hsl(217, 12%, 63%);
+    line-height: 1.6;
+}
